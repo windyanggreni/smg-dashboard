@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to right, #dbeafe, #f0f9ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.card {
+    max-width: 550px;
+    border: none;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-radius: 16px;
+    overflow: hidden;
+}
+.card-img-top {
+    width: 20%;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: #2563eb;
+}
+.btn-login {
+    background-color: #1a2035;
+    color: #ffffff;
+}
+.btn-login:hover {
+    background-color: #c6d2ff;
+}
+.btn-register {
+    background-color:#1a2035;
+    color: #ffffff;
+}
+.btn-register:hover {
+    background-color: #c6d2ff;
+}
+.social-icons button {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+}
+.text-link {
+    color: #3b82f6;
+    text-decoration: none;
+}
+.text-link:hover {
+    text-decoration: underline;
+}
+
